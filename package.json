@@ -1,0 +1,33 @@
+{
+  "name": "node-opkg",
+  "version": "0.5.0",
+  "description": "A simple command-line wrapper around the openwrt `opkg` package manager.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "grunt": "^1.0.1",
+    "grunt-mocha": "^1.0.4",
+    "grunt-mocha-test": "^0.13.2"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersevenrud/node-opkg.git"
+  },
+  "keywords": [
+    "opkg"
+  ],
+  "author": "Anders Evenrud <andersevenrud@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andersevenrud/node-opkg/issues"
+  },
+  "homepage": "https://github.com/andersevenrud/node-opkg#readme"
+}

@@ -1,0 +1,4 @@
+* There's some methods missing
+* Some output is never handled for certain commands
+* Tests should use dummy packages
+* Handle errors better
